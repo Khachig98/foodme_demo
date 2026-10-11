@@ -9,7 +9,7 @@ test("decreasing cart quantity lowers it by one and removes only at minimum", as
   await page.locator("button.dc_card").first().click();
   await page.getByRole("button", { name: "Add to cart" }).click();
 
-  const cartPanel = page.locator("aside.uc-panel");
+  const cartPanel = page.locator("aside.uc-panel")
   const cartItem = cartPanel.locator(".cic_root");
   const quantity = cartItem.locator(".fm-qty-grp p");
   await expect(cartItem).toHaveCount(1);
