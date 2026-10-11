@@ -9,7 +9,7 @@ You need about 30–40 minutes. Most of it is waiting for servers to start.
 
 ## Step 1 — Make your own copy of this project
 
-1. Sign up / log in at [github.com](https://github.com).
+1. Sign up or log in at [github.com](https://github.com).
 2. On this repository page, click **Fork** (top right). Now you have your own copy.
 3. In **your fork**, open the file `render.yaml`, click the **pencil icon** to edit,
    and change this line:
